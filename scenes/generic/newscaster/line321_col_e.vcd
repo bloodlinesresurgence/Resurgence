@@ -1,0 +1,117 @@
+// Choreo version 1
+actor "Newscaster"
+{
+  channel "Speech"
+  {
+    event speak "NPC Line"
+    {
+      time 0.000000 32.913403
+      param "character/dlg/generic/newscaster/line321_col_e.wav"
+      param2 "70dB"
+      fixedlength
+    }
+  }
+  channel "Gestures"
+  {
+  }
+  channel "Expressions"
+  {
+  }
+  channel "Speech Triggers"
+  {
+    event silence "Silence"
+    {
+      time 6.320000 6.870000
+      param "0.550"
+    }
+    event silence "Silence"
+    {
+      time 8.070000 8.250000
+      param "0.180"
+    }
+    event silence "Silence"
+    {
+      time 9.610000 9.940000
+      param "0.330"
+    }
+    event silence "Silence"
+    {
+      time 13.450000 14.270000
+      param "0.820"
+    }
+    event silence "Silence"
+    {
+      time 17.309999 17.609999
+      param "0.300"
+    }
+    event silence "Silence"
+    {
+      time 18.449999 18.590000
+      param "0.140"
+    }
+    event silence "Silence"
+    {
+      time 19.369999 19.600000
+      param "0.230"
+    }
+    event silence "Silence"
+    {
+      time 21.180000 21.439999
+      param "0.260"
+    }
+    event silence "Silence"
+    {
+      time 26.510000 26.619999
+      param "0.110"
+    }
+    event loud "Loud"
+    {
+      time 0.900000 1.020000
+      param "0.120"
+    }
+    event loud "Loud"
+    {
+      time 7.620000 7.750000
+      param "0.130"
+    }
+    event loud "Loud"
+    {
+      time 8.300000 8.420000
+      param "0.120"
+    }
+    event loud "Loud"
+    {
+      time 8.620000 8.730000
+      param "0.110"
+    }
+    event loud "Loud"
+    {
+      time 10.630000 10.740000
+      param "0.110"
+    }
+    event loud "Loud"
+    {
+      time 18.059999 18.170000
+      param "0.110"
+    }
+    event loud "Loud"
+    {
+      time 21.549999 21.660000
+      param "0.110"
+    }
+    event loud "Loud"
+    {
+      time 21.799999 21.920000
+      param "0.120"
+    }
+    event loud "Loud"
+    {
+      time 26.670000 26.779999
+      param "0.110"
+    }
+  }
+  bonerename "Bip01" "Bip01"
+}
+
+fps 60
+snap off

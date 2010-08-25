@@ -1,0 +1,122 @@
+// Choreo version 1
+actor "Newscaster"
+{
+  channel "Speech"
+  {
+    event speak "NPC Line"
+    {
+      time 0.000000 25.543016
+      param "character/dlg/generic/newscaster/line251_col_f.wav"
+      param2 "70dB"
+      fixedlength
+    }
+  }
+  channel "Gestures"
+  {
+  }
+  channel "Expressions"
+  {
+  }
+  channel "Speech Triggers"
+  {
+    event silence "Silence"
+    {
+      time 5.400000 5.570000
+      param "0.170"
+    }
+    event silence "Silence"
+    {
+      time 7.630000 7.810000
+      param "0.180"
+    }
+    event silence "Silence"
+    {
+      time 9.170000 9.320000
+      param "0.150"
+    }
+    event silence "Silence"
+    {
+      time 9.920000 10.030000
+      param "0.110"
+    }
+    event silence "Silence"
+    {
+      time 12.469999 13.049999
+      param "0.580"
+    }
+    event silence "Silence"
+    {
+      time 16.340000 16.770000
+      param "0.430"
+    }
+    event loud "Loud"
+    {
+      time 0.210000 0.320000
+      param "0.110"
+    }
+    event loud "Loud"
+    {
+      time 0.700000 0.810000
+      param "0.110"
+    }
+    event loud "Loud"
+    {
+      time 0.980000 1.090000
+      param "0.110"
+    }
+    event loud "Loud"
+    {
+      time 3.500000 3.610000
+      param "0.110"
+    }
+    event loud "Loud"
+    {
+      time 3.650000 3.760000
+      param "0.110"
+    }
+    event loud "Loud"
+    {
+      time 7.850000 7.960000
+      param "0.110"
+    }
+    event loud "Loud"
+    {
+      time 10.710000 10.820000
+      param "0.110"
+    }
+    event loud "Loud"
+    {
+      time 11.809999 11.920000
+      param "0.110"
+    }
+    event loud "Loud"
+    {
+      time 15.549999 15.660000
+      param "0.110"
+    }
+    event loud "Loud"
+    {
+      time 17.299999 17.420000
+      param "0.120"
+    }
+    event loud "Loud"
+    {
+      time 17.619999 17.750000
+      param "0.130"
+    }
+    event loud "Loud"
+    {
+      time 17.809999 17.920000
+      param "0.110"
+    }
+    event loud "Loud"
+    {
+      time 18.900000 19.010000
+      param "0.110"
+    }
+  }
+  bonerename "Bip01" "Bip01"
+}
+
+fps 60
+snap off

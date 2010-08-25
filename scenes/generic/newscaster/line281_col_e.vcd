@@ -1,0 +1,62 @@
+// Choreo version 1
+actor "Newscaster"
+{
+  channel "Speech"
+  {
+    event speak "NPC Line"
+    {
+      time 0.000000 18.692064
+      param "character/dlg/generic/newscaster/line281_col_e.wav"
+      param2 "70dB"
+      fixedlength
+    }
+  }
+  channel "Gestures"
+  {
+  }
+  channel "Expressions"
+  {
+  }
+  channel "Speech Triggers"
+  {
+    event silence "Silence"
+    {
+      time 9.099999 9.490000
+      param "0.390"
+    }
+    event silence "Silence"
+    {
+      time 12.179999 12.290000
+      param "0.110"
+    }
+    event silence "Silence"
+    {
+      time 14.170000 14.360000
+      param "0.190"
+    }
+    event silence "Silence"
+    {
+      time 14.450000 14.660000
+      param "0.210"
+    }
+    event silence "Silence"
+    {
+      time 15.929999 16.160000
+      param "0.230"
+    }
+    event loud "Loud"
+    {
+      time 6.050000 6.160000
+      param "0.110"
+    }
+    event loud "Loud"
+    {
+      time 8.490000 8.599999
+      param "0.110"
+    }
+  }
+  bonerename "Bip01" "Bip01"
+}
+
+fps 60
+snap off

@@ -1,0 +1,29 @@
+"Water"
+{
+	"$abovewater" 0
+	"%compilewater" 1
+	"$CHEAPWATERSTARTDISTANCE" 500.0
+	"$CHEAPWATERENDDISTANCE" 1000.0
+	"%tooltexture" "reflectivefloor/reflectivefloor_normal"
+	"$refractamount" "1"
+	"$refracttint" "{120 120 120}"
+
+	"$reflectamount" "0.7"
+	"$reflecttint" "[1 1 1]"
+
+	"$reflecttexture" "_rt_WaterReflection"
+
+	"$scale" "[1 1]"
+
+	"$bumpmap" "reflectivefloor/reflectivefloor_dudv"
+	"$normalmap" "reflectivefloor/reflectivefloor_normal"
+
+	"$bottommaterial" "dev/dev_waterbeneath2"
+	"$surfaceprop" "water"
+	"$bumpframe" "0"
+
+	"$fogenable" 0
+	"$fogcolor" "{20 20 20}"
+	"$fogstart" 1024.00
+	"$fogend" 1024.00
+}

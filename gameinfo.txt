@@ -1,0 +1,24 @@
+"GameInfo"
+{
+	// This is what shows up in the 'Third Party Games' area of the Steam games list.
+	game						"Bloodlines Resurgence Demo"
+	type 						multiplayer_only
+	title						""
+	developer					"The Bloodlines Revival Project"
+	developer_url					"http://forum.bloodlinesresurgence.net/"
+	gamelogo					1
+	icon						"resource\vampico"
+
+	FileSystem
+	{
+		SteamAppId				218 	// GCF for Source SDK Base
+		ToolsAppId				211		// Tools will load this (ie: source SDK caches) to get things like materials\debug, materials\editor, etc.
+
+		SearchPaths
+		{
+			Game				|gameinfo_path|.
+			Game				sourcetest
+			Game				hl2
+		}
+	}
+}
