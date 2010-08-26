@@ -4,8 +4,8 @@
 	game						"Bloodlines Resurgence Demo"
 	type 						multiplayer_only
 	title						""
-	developer					"The Bloodlines Revival Project"
-	developer_url					"http://forum.bloodlinesresurgence.net/"
+	developer					"The Bloodlines Resurgence Project"
+	developer_url					"http://www.bloodlinesresurgence.net/"
 	gamelogo					1
 	icon						"resource\vampico"
 
