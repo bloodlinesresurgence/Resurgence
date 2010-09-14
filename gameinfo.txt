@@ -1,24 +1,25 @@
 "GameInfo"
 {
-	// This is what shows up in the 'Third Party Games' area of the Steam games list.
-	game						"Bloodlines Resurgence Demo"
-	type 						multiplayer_only
-	title						""
-	developer					"The Bloodlines Resurgence Project"
-	developer_url					"http://www.bloodlinesresurgence.net/"
-	gamelogo					1
-	icon						"resource\vampico"
-
-	FileSystem
+	"game"		"Bloodlines Resurgence 2011"
+	"title"		"    "	// asw - leave this blank as we have a texture logo
+	"type"		"multiplayer_only"
+	GameData	"swarm.fgd"
+	InstancePath "tilegen/instances/"
+	
+	SupportsDX8     0
+	
+	"FileSystem"
 	{
-		SteamAppId				218 	// GCF for Source SDK Base
-		ToolsAppId				211		// Tools will load this (ie: source SDK caches) to get things like materials\debug, materials\editor, etc.
-
-		SearchPaths
+		"SteamAppId"	"630"
+		"ToolsAppId"	"211"
+		
+		"SearchPaths"
 		{
-			Game				|gameinfo_path|.
-			Game				sourcetest
-			Game				hl2
+			"Game"	"|gameinfo_path|."
+			"Game"	"swarm"
+			"Game"	"swarm_tempcontent"
+			"Game"	"swarm_base"
+			"Game"	"platform"
 		}
 	}
 }
